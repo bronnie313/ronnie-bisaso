@@ -5,7 +5,7 @@ const Home = () => (
   <section>
     <div className="profile">
       <p>Welcome</p>
-      <h1>Glad to see you!, I&apos;m Bronnie.</h1>
+      <h1 style={{ width: '60%' }}><span className="text-success">Glad</span> to see you!, I&apos;m <span className='text-success'>Bronnie</span>.</h1>
       <p>
         I&apos;m a software developer! I can help you build a product, feature or website.
         If you like what you see and have a project you need coded,
