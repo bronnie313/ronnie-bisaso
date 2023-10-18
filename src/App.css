@@ -30,7 +30,7 @@ section {
   display: grid;
   grid-template-columns: 50% 31% 10%;
   gap: 3rem;
-  margin: 4rem;
+  margin: 8rem 6rem;
 }
 
 .social-connection {
@@ -43,4 +43,54 @@ section {
 .home-background-pic {
   position: absolute;
   width: 30%;
+  z-index: -9999;
+}
+
+.icon {
+  color: hsla(0,0%,100%,1);
+    padding: 4px;
+    background: #0db760;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.vl {
+  border-left: 1.5px solid #0db760;
+  height: 3.8rem;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 700;
+  color: #0db760;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 30px;
+  margin: 8rem 6rem;
+}
+
+.skill-set {
+  grid-template-columns: auto auto auto auto auto;
+  display: grid;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background: #f9fafb78;
+}
+
+.one-skill {
+  border: 0.5px solid ghostwhite;
+    padding: 5px;
+    margin: 3px;
+    width: 116px;
+    background: #fff;
 }
