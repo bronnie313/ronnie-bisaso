@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-image: url(/public/images/Design.png);
 }
 
@@ -14,4 +14,28 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.vertical-text {
+  transform: rotate(90deg);
+  width: 12rem;
+}
+
+.vertical-line {
+  transform: rotate(90deg);
+  width: 2rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 50% 31% 10%;
+  gap: 3rem;
+  margin: 4rem;
+}
+
+.social-connection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
