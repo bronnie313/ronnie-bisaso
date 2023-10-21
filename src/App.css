@@ -68,15 +68,14 @@ h2 {
 
 .skills {
   display: grid;
-  grid-template-columns: 40% 40%;
-  gap: 30px;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 5%;
   margin: 8rem 6rem;
 }
 
 .skill-set {
-  grid-template-columns: auto auto auto auto auto;
-  display: grid;
-  align-items: center;
+  display: flex;
+  flex-flow: wrap;
 }
 
 p {
@@ -93,4 +92,28 @@ body {
     margin: 3px;
     width: 116px;
     background: #fff;
+    flex-grow: 1;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px;
+}
+
+.icon2 {
+  color: hsla(0,0%,100%,1);
+  padding: 4px;
+  background: #0db760;
+  font-size: 2.5rem;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 5%;
+  margin: 2rem 6rem;
 }

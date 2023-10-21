@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <nav className="d-flex justify-content-around align-items-center mt-3">
-    <div>Logo</div>
+    <img src="./images/logo.PNG" alt="logo" />
     <ul className="d-flex align-items-center">
       <li>About</li>
       <li>Skills</li>
