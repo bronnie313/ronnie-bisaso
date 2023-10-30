@@ -25,3 +25,8 @@ code {
     'Courier New',
     monospace;
 }
+
+
+html {
+  height: 100vh;
+}
