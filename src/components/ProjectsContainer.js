@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useSelector } from 'react-redux';
+import ProjectItem from './ProjectItems';
 import 'swiper/css'
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 
@@ -8,7 +9,6 @@ import { Navigation, Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import ProjectItem from './ProjectItem';
 // import 'swiper/css/scrollbar';
 
 
@@ -24,10 +24,10 @@ const ProjectsContainter = () => {
             slidesPerView: 2,
         },
         768: {
-          slidesPerView: 3, // 2 slides for tablets (e.g., width >= 768px)
+          slidesPerView: 2, // 2 slides for tablets (e.g., width >= 768px)
         },
         1024: {
-          slidesPerView: 4, // 3 slides for desktop (e.g., width >= 1024px)
+          slidesPerView: 3, // 3 slides for desktop (e.g., width >= 1024px)
         },
       };
 
@@ -43,25 +43,24 @@ const ProjectsContainter = () => {
 
     return (
             <div>
-                <h2>Personal Projects</h2>
                 <div className='slide-container'>
                     <div className='slide-content'>
                         <div className='card-wrapper'>
                             <Swiper
                                 // install Swiper modules
                                 modules={[Navigation, Pagination, A11y]}
-                                spaceBetween={10}
+                                spaceBetween={40}
                                 breakpoints={breakpoints}
                                 speed={100}
                                 navigation
                                 pagination={{ clickable: true }}
-                                centeredSlides={true} // Center the active slide
+                                // centeredSlides={true} // Center the active slide
                                 // centeredSlidesBounds={true} // Enable centered slides bounds
                                  // Enable centered slides bounds
-                                centeredSlidesBounds={{
-                                  start: 1 / 3, // Centered card 1/3 from the left
-                                  end: 2 / 3, // Centered card 2/3 from the left
-                                }}
+                                // centeredSlidesBounds={{
+                                //   start: 1 / 3, // Centered card 1/3 from the left
+                                //   end: 2 / 3, // Centered card 2/3 from the left
+                                // }}
                                 // scrollbar={{ draggable: true }}
                                 onSwiper={(swiper) => console.log(swiper)}
                                 onSlideChangeTransitionEnd={(swiper) => {

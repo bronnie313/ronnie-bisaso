@@ -14,8 +14,8 @@ const ProjectItem = ({id, title, description, image}) => {
       <div className='project-content'>
         <h3>{title}</h3>
         <p>{description}</p>
-        <button type="button">View more</button>
       </div>
+        <button type="button">View more</button>
     </div>
   )
 }

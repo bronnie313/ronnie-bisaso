@@ -1,5 +1,5 @@
-import React from 'react'
-import ProjectsContainter from './ProjectContainer';
+import React from 'react';
+import ProjectsContainer from './ProjectsContainer'
 
 const Portfolio = () => {
   return (
@@ -17,7 +17,7 @@ const Portfolio = () => {
             </p>
             <button type="button" className="btn btn-sm btn-success">Show more</button>
         </div>
-        <ProjectsContainter />
+        <ProjectsContainer />
     </div>
   )
 }
