@@ -1,0 +1,55 @@
+.image-pic {
+    width: 50%;  
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+ 
+.card-image .image-pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.project {
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+    background-color: white;
+}
+
+.slide-content {
+    margin: 0 4px ;
+}
+
+.image-content, 
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 1rem;
+}
