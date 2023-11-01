@@ -1,12 +1,7 @@
-.image-pic {
-    width: 50%;  
-}
-
 .card-image {
     position: relative;
     height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    width: 220px;
     background-color: #fff;
 }
  
@@ -14,7 +9,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
 } 
 
 .project {
@@ -37,6 +32,12 @@
     padding: 10px 14px;
 }
 
+.project-content {
+    position: relative;
+    row-gap: 5px;
+    height: 200px;
+}
+
 .name {
     font-size: 18px;
     font-weight: 600;
@@ -52,4 +53,15 @@
 .swiper-pagination {
     position: relative;
     margin-top: 1rem;
+}
+
+.slide-container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.slide-big-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

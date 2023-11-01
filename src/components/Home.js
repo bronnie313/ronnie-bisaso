@@ -27,7 +27,7 @@ const Home = () => (
       <div className="vertical-text">Follow me on:</div>
       <div className="vertical-line"><hr /></div>
       <ul>
-        <li><Icon className="icon" icon="basil:twitter-outline" /></li>
+        <li><Icon className='icon' icon="pajamas:twitter" color="white" /></li>
         <li><Icon className="icon" icon="formkit:linkedin" /></li>
         <li><Icon className="icon" icon="mingcute:medium-fill" /></li>
         <li><Icon className="icon" icon="charm:github" /></li>
