@@ -1,39 +1,247 @@
+.design {
+  /* text-align: center; */
+  background-image: url(/public/images/Design.png);
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+
+  /* outline: 1px solid red; */
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-img {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-pic {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: #0db760;
+  font-weight: 700;
+}
+
+ul {
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-text {
+  transform: rotate(90deg);
+  width: 12rem;
+}
+
+.vertical-line {
+  transform: rotate(90deg);
+  width: 2rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 50% 37% 10%;
+  gap: 1rem;
+  margin: 3rem 6rem;
+  align-items: center;
+}
+
+.social-connection {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  height: 295px;
 }
 
-.App-link {
-  color: #61dafb;
+.home-background-pic {
+  position: absolute;
+  width: 30%;
+  z-index: -9999;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.home-background-pic2 {
+  position: absolute;
+  top: 119%;
+  width: 97%;
+  height: 212%;
+  z-index: -9999;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+  color: hsla(0, 0%, 100%, 1);
+  padding: 4px;
+  background: #0db760;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.vl {
+  border-left: 1.5px solid #0db760;
+  height: 3.8rem;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 700;
+  color: #0db760;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 5%;
+  margin: 8rem 6rem;
+}
+
+.skill-set {
+  display: flex;
+  flex-flow: wrap;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background: #f9fafb78;
+}
+
+.one-skill {
+  border: 0.5px solid ghostwhite;
+  padding: 5px;
+  margin: 3px;
+  width: 116px;
+  background: #fff;
+  flex-grow: 1;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 0.5px solid ghostwhite;
+  padding: 5px;
+  margin: 3px;
+  width: 100%;
+  border-radius: 7px;
+  background: #fff;
+  flex-grow: 1;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+  margin: 2px;
+}
+
+.icon2 {
+  color: hsla(0, 0%, 100%, 1);
+  padding: 4px;
+  background: #0db760;
+  font-size: 2.5rem;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 5%;
+  margin: 2rem 6rem;
+}
+
+.recommendation {
+  margin: 0 6rem 6rem;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4%;
+}
+
+.reivew-imgs {
+  width: 100%;
+  height: 100%;
+}
+
+.review-container {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stars {
+  gap: 2px;
+}
+
+textarea {
+  height: 6rem;
+  margin: 0.7em 0;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  background: inherit;
+  font-feature-settings: inherit;
+  font-family: monospace;
+  padding: 5px;
+}
+
+.submit-btn {
+  width: fit-content;
+  display: flex;
+  place-self: flex-end;
+}
+
+input {
+  border: 1px solid lightgray;
+  padding: 4px;
+  border-radius: 6px;
+  background: inherit;
+  font-feature-settings: inherit;
+  font-family: monospace;
+}
+
+footer {
+  padding: 2rem 6rem 2rem;
+}
+
+.nav-title {
+  font-weight: 700;
+}
+
+.headline {
+  width: fit-content;
+  padding: 8px;
+  border: 1px solid #0db760;
+  border-radius: 30px;
+  color: #0db760;
+}
+
+.solutions {
+  position: relative;
+  top: -1rem;
+  font-family: cursive;
+  color: #0db760;
+}
+
+.portfolio {
+  margin: 0 6rem 6rem;
 }
