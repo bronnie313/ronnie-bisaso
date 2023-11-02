@@ -4,7 +4,7 @@ import '../css/portfolio.css';
 
 const Portfolio = () => (
   <div className="portfolio">
-    <div>
+    <div className="d-flex flex-column justify-content-center align-items-center m-4">
       <p className="headline">Portfolio</p>
       <h3>
         My Creative Works Some Latest
@@ -15,7 +15,6 @@ const Portfolio = () => (
           I have selected and mentioned here some of my latest projects to share with you.
         </em>
       </p>
-      <button type="button" className="btn btn-sm btn-success">Show more</button>
     </div>
     <ProjectsContainer />
   </div>
