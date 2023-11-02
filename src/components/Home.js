@@ -21,13 +21,13 @@ const Home = () => (
       <button type="button" className="btn btn-success btn-sm">contact me</button>
     </div>
     <div className="profile-pic">
-      <img className="profile-img" src="./images/profile.png" alt="Profile picture" />
+      <img className="profile-img" src="./images/profile.png" alt="profile-pic" />
     </div>
     <div className="social-connection">
       <div className="vertical-text">Follow me on:</div>
       <div className="vertical-line"><hr /></div>
       <ul>
-        <li><Icon className='icon' icon="pajamas:twitter" color="white" /></li>
+        <li><Icon className="icon" icon="pajamas:twitter" color="white" /></li>
         <li><Icon className="icon" icon="formkit:linkedin" /></li>
         <li><Icon className="icon" icon="mingcute:medium-fill" /></li>
         <li><Icon className="icon" icon="charm:github" /></li>

@@ -11,9 +11,11 @@ import Rewards from './components/Rewards';
 import Skills from './components/Skills';
 
 function App() {
-  const { isOpen } = useSelector((store) => store.modal)
-  const { projects } = useSelector((store) => store.slide )
-  const { id, title, description, image } = useSelector((store) => store.slide)
+  const { isOpen } = useSelector((store) => store.modal);
+  const { projects } = useSelector((store) => store.slide);
+  const {
+    id, title, description, image,
+  } = useSelector((store) => store.slide);
   return (
     <div className="container-fluid App">
       <img className="home-background-pic" src="./images/Design.png" alt="img" />

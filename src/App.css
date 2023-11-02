@@ -10,22 +10,23 @@
 * {
   padding: 0;
   margin: 0;
+
   /* outline: 1px solid red; */
   box-sizing: border-box;
 }
 
 .profile-img {
   width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-pic {
   width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -34,10 +35,10 @@
 }
 
 ul {
-    gap: 2rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .vertical-text {
@@ -81,12 +82,12 @@ section {
 }
 
 .icon {
-  color: hsla(0,0%,100%,1);
-    padding: 4px;
-    background: #0db760;
-    font-size: 1.5rem;
-    margin-top: 5px;
-    border-radius: 8px;
+  color: hsla(0, 0%, 100%, 1);
+  padding: 4px;
+  background: #0db760;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  border-radius: 8px;
 }
 
 .vl {
@@ -122,11 +123,11 @@ body {
 
 .one-skill {
   border: 0.5px solid ghostwhite;
-    padding: 5px;
-    margin: 3px;
-    width: 116px;
-    background: #fff;
-    flex-grow: 1;
+  padding: 5px;
+  margin: 3px;
+  width: 116px;
+  background: #fff;
+  flex-grow: 1;
 }
 
 .call {
@@ -150,7 +151,7 @@ body {
 }
 
 .icon2 {
-  color: hsla(0,0%,100%,1);
+  color: hsla(0, 0%, 100%, 1);
   padding: 4px;
   background: #0db760;
   font-size: 2.5rem;
@@ -193,13 +194,12 @@ body {
 }
 
 textarea {
-    height: 6rem;
-    margin: 0.7em 0;
-    border: 1px solid lightgray;
-    padding: 4px;
-    border-radius: 6px;
-    background: inherit;
-    font-feature-settings: inherit;
+  height: 6rem;
+  margin: 0.7em 0;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  background: inherit;
+  font-feature-settings: inherit;
   font-family: monospace;
   padding: 5px;
 }
@@ -212,10 +212,10 @@ textarea {
 
 input {
   border: 1px solid lightgray;
-    padding: 4px;
-    border-radius: 6px;
-    background: inherit;
-    font-feature-settings: inherit;
+  padding: 4px;
+  border-radius: 6px;
+  background: inherit;
+  font-feature-settings: inherit;
   font-family: monospace;
 }
 
@@ -245,4 +245,3 @@ footer {
 .portfolio {
   margin: 0 6rem 6rem;
 }
-
