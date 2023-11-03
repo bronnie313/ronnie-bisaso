@@ -2,9 +2,9 @@ import React from 'react';
 import { Icon } from '@iconify/react';
 
 const Skills = () => (
-  <div className="skills">
+  <div id="my-skills" className="skills">
     <div>
-      <p className="headline">My Skills</p>
+      <p className="headline mb-2">My Skills</p>
       <h3>
         Why Hire Me For Your Next
         <span className="text-success">Project</span>
@@ -18,7 +18,7 @@ const Skills = () => (
           {' '}
         </em>
       </p>
-      <button type="button" className="btn btn-sm btn-success">Hire Me</button>
+      <button type="button" className="btn btn-sm btn-success mt-2">Hire Me</button>
     </div>
     <div className="skill-set">
       <div className="one-skill">

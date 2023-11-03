@@ -3,7 +3,7 @@ import ProjectsContainer from './ProjectsContainer';
 import '../css/portfolio.css';
 
 const Portfolio = () => (
-  <div className="portfolio">
+  <div id="my-projects" className="portfolio">
     <div className="d-flex flex-column justify-content-center align-items-center m-4">
       <p className="headline">Portfolio</p>
       <h3>

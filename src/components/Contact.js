@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from '@iconify/react';
 
 const Contact = () => (
-  <div className="contact-section">
+  <div id="my-contacts" className="contact-section">
     <div className="d-flex flex-column justify-content-center align-items-center mt-4">
       <p className="headline">Contact</p>
       <h3>

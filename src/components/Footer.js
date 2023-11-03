@@ -15,6 +15,8 @@ const Footer = () => (
         <li><Icon className="icon" icon="formkit:linkedin" /></li>
         <li><Icon className="icon" icon="mingcute:medium-fill" /></li>
         <li><Icon className="icon" icon="charm:github" /></li>
+        <li><Icon className="icon" icon="simple-icons:wellfound" /></li>
+
       </ul>
     </div>
   </footer>

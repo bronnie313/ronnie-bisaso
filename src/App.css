@@ -43,11 +43,12 @@ ul {
 
 .vertical-text {
   transform: rotate(90deg);
-  width: 12rem;
+  width: 9rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .vertical-line {
-  transform: rotate(90deg);
   width: 2rem;
 }
 
@@ -60,11 +61,13 @@ section {
 }
 
 .social-connection {
-  display: flex;
   flex-direction: column;
+  display: flex;
   align-items: center;
-  justify-content: flex-end;
-  height: 295px;
+  width: 2rem;
+  height: 15rem;
+  place-self: end;
+  justify-content: space-between;
 }
 
 .home-background-pic {
@@ -87,7 +90,13 @@ section {
   background: #0db760;
   font-size: 1.5rem;
   margin-top: 5px;
-  border-radius: 8px;
+  border-radius: 15px;
+  border-style: double;
+}
+
+.icon:hover {
+  color: #0db760;
+  background-color: white;
 }
 
 .vl {
@@ -225,6 +234,31 @@ footer {
 
 .nav-title {
   font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #0db760;
+}
+
+.nav-title::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #0db760;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  opacity: 0;
+}
+
+.nav-title:hover::after {
+  color: #0db760;
+  opacity: 1;
+  cursor: pointer;
 }
 
 .headline {
@@ -244,4 +278,13 @@ footer {
 
 .portfolio {
   margin: 0 6rem 6rem;
+}
+
+.cv {
+  color: #333;
+  text-decoration: none;
+}
+
+.cv:hover {
+  color: white;
 }

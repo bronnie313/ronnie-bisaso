@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from '@iconify/react';
 
 const Review = () => (
-  <div className="recommendation">
+  <div id="my-reviews" className="recommendation">
     <div className="d-flex flex-column justify-content-center align-items-center m-4">
       <p className="headline">Recommendations</p>
       <h3>
