@@ -73,6 +73,8 @@ const ProjectsContainter = () => {
                                         title={item.title}
                                         description={item.description}
                                         image={item.image}
+                                        link={item.link}
+                                        github={item.github}
                                       />
                                     </SwiperSlide>
                                   </div>

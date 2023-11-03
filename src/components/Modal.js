@@ -7,7 +7,7 @@ import { closeModal } from '../features/modal/modalSlice';
 const Modal = () => {
   const selectedProject = useSelector((store) => store.slide.selectedProject);
   const {
-    title, image, description,
+    title, image, description, link, github,
   } = selectedProject;
   const dispatch = useDispatch();
   return (
@@ -37,12 +37,18 @@ const Modal = () => {
         </div>
         <div className="btn-container">
           <button type="button" className="btn btn-light m-2 btn-sm see-btns">
-            See live
-            <Icon icon="solar:round-arrow-left-up-broken" rotate={1} />
+            <a href={link}>
+              See live
+              {' '}
+              <Icon icon="solar:round-arrow-left-up-broken" rotate={1} />
+            </a>
           </button>
           <button type="button" className="btn btn-light m-2 btn-sm see-btns">
-            See source
-            <Icon icon="teenyicons:github-solid" />
+            <a href={github}>
+              See source
+              {' '}
+              <Icon icon="teenyicons:github-solid" />
+            </a>
           </button>
         </div>
       </div>

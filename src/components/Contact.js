@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from '@iconify/react';
 
 const Contact = () => (
-  <div className="contact-section">
+  <div id="my-contacts" className="contact-section">
     <div className="d-flex flex-column justify-content-center align-items-center mt-4">
       <p className="headline">Contact</p>
       <h3>
@@ -29,12 +29,16 @@ const Contact = () => (
         <div className="call">
           <Icon className="icon2" icon="mi:email" />
           <div>
-            <p>Email me</p>
+            <a href="bronnie313@gmail.com">
+              <p>Email me</p>
+            </a>
             <p>bronnie313@gmail.com</p>
           </div>
         </div>
         <div className="call">
-          <Icon className="icon2" icon="mdi:address-marker-outline" />
+          <a href="https://maps.app.goo.gl/K1AQcuT8z6rzYc1S9">
+            <Icon className="icon2" icon="mdi:address-marker-outline" />
+          </a>
           <div>
             <p>Address</p>
             <p>Kitintale, Kampala UG</p>

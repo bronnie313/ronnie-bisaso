@@ -71,3 +71,8 @@
 .see-btns {
   border: 0.5px solid cornflowerblue;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
