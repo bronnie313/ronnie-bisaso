@@ -18,7 +18,7 @@ const Skills = () => (
           {' '}
         </em>
       </p>
-      <button type="button" className="btn btn-sm btn-success mt-2">Hire Me</button>
+      <button type="button" className="btn btn-sm btn-success mt-2"><a href="#my-contacts">Hire Me</a></button>
     </div>
     <div className="skill-set">
       <div className="one-skill">

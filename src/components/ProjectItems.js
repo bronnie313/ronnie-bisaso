@@ -5,13 +5,13 @@ import { setSelectedProject } from '../features/slide/slideSlice';
 import { openModal } from '../features/modal/modalSlice';
 
 const ProjectItem = ({
-  id, title, description, image,
+  id, title, description, image, link, github,
 }) => {
   const dispatch = useDispatch();
 
   const handleViewMore = () => {
     dispatch(setSelectedProject({
-      id, title, description, image,
+      id, title, description, image, link, github,
     }));
     dispatch(openModal());
   };
@@ -43,6 +43,8 @@ ProjectItem.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired,
 };
 
 export default ProjectItem;
