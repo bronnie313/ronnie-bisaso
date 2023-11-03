@@ -13,7 +13,7 @@ const slideSlice = createSlice({
   reducers: {
     setSelectedProject: (state, action) => {
       state.selectedProject = action.payload;
-      console.log(action.payload);
+      // console.log(action.payload);
     },
   },
 });
