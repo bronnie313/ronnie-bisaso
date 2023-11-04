@@ -102,7 +102,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-      <button type="button" className="btn btn-outline-success btn-sm"><a className="cv" href="https://docs.google.com/document/d/1BNoFCStYQbHl8Bwq073pdJt1owdG0XDF3TrVxV-KHgE/edit?usp=sharing">Download CV</a></button>
+      <button type="button" className="btn btn-outline-success btn-sm" aria-label="Download CV"><a className="cv" href="https://docs.google.com/document/d/1BNoFCStYQbHl8Bwq073pdJt1owdG0XDF3TrVxV-KHgE/edit?usp=sharing">Download CV</a></button>
     </nav>
   );
 };
