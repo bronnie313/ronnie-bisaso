@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio Site** is a student's a project that displays "A software Engineers profile" and tests microverse students their understanding on parsing figma design to create a UI, and also Using Flexbox to place elements in the page 
+**Portfolio Site** is a project that displays "A software Engineers profile" and tests the understanding on parsing figma design to create a UI, It is also your ultimate tool for showcasing your skills and achievements! It's platform that allows you to create and manage your professional portfolio online.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,7 +70,7 @@ After you're finished please remove all the comments and instructions!
 A project was built Using
 
 <details>
-  <summary>HTML</summary>
+  <summary>React.js</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
@@ -82,6 +82,12 @@ A project was built Using
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
+<details>
+  <summary>Bootstrap</summary>
+  <ul>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
+</details>
 
 
 
@@ -90,6 +96,9 @@ A project was built Using
 - **Software Engineer Profile**
 - **The Logo and the Menu**
 - **The Connection Section(twitter, github linkedIn and more options to connect)**
+- **The Skills section**
+- **The Projects section showcased using swiper**
+- **Contact section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +156,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:https://github.com/bronnie313/ronnie-bisaso.git
+To run the project, execute the following command: ` npm start `
 
 <!--
 Example command:
@@ -159,7 +168,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:https://github.com/bronnie313/ronnie-bisaso.git
+To run tests, run the following command: ` npm test `
 
 <!--
 Example command:
@@ -171,7 +180,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:https://github.com/bronnie313/ronnie-bisaso.git
+You can deploy this project using:    ` https://github.com/bronnie313/ronnie-bisaso.git  `
 
 <!--
 Example:
