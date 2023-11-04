@@ -32,7 +32,7 @@ const Home = () => (
       <ul className="social-media">
         <li>
           <a href="https://twitter.com/bisaso_r">
-            <Icon className="icon" icon="pajamas:twitter" color="white" />
+            <Icon className="icon" icon="simple-icons:x" />
           </a>
         </li>
         <li>
