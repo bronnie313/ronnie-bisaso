@@ -4,7 +4,7 @@ import '../css/portfolio.css';
 
 const Portfolio = () => (
   <div id="my-projects" className="portfolio">
-    <div className="d-flex flex-column justify-content-center align-items-center m-4">
+    <div className="d-flex flex-column justify-content-center m-4">
       <p className="headline">Portfolio</p>
       <h3>
         My Creative Works Some Latest

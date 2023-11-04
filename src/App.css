@@ -41,33 +41,8 @@ ul {
   margin: 0;
 }
 
-.vertical-text {
-  transform: rotate(90deg);
-  width: 9rem;
-  display: flex;
-  justify-content: space-between;
-}
-
 .vertical-line {
   width: 2rem;
-}
-
-section {
-  display: grid;
-  grid-template-columns: 50% 37% 10%;
-  gap: 1rem;
-  margin: 3rem 6rem;
-  align-items: center;
-}
-
-.social-connection {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  width: 2rem;
-  height: 15rem;
-  place-self: end;
-  justify-content: space-between;
 }
 
 .home-background-pic {
@@ -108,13 +83,6 @@ h2 {
   margin: 0;
   font-weight: 700;
   color: #0db760;
-}
-
-.skills {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 5%;
-  margin: 8rem 6rem;
 }
 
 .skill-set {
@@ -168,23 +136,6 @@ body {
   border-radius: 8px;
 }
 
-.contact-info {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 5%;
-  margin: 2rem 6rem;
-}
-
-.recommendation {
-  margin: 0 6rem 6rem;
-}
-
-.reviews {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4%;
-}
-
 .reivew-imgs {
   width: 100%;
   height: 100%;
@@ -217,19 +168,6 @@ textarea {
   width: fit-content;
   display: flex;
   place-self: flex-end;
-}
-
-input {
-  border: 1px solid lightgray;
-  padding: 4px;
-  border-radius: 6px;
-  background: inherit;
-  font-feature-settings: inherit;
-  font-family: monospace;
-}
-
-footer {
-  padding: 2rem 6rem 2rem;
 }
 
 .nav-title {
@@ -276,10 +214,6 @@ a:hover {
   color: #0db760;
 }
 
-.portfolio {
-  margin: 0 6rem 6rem;
-}
-
 .cv {
   color: #333;
   text-decoration: none;
@@ -287,4 +221,11 @@ a:hover {
 
 .cv:hover {
   color: white;
+}
+
+@media only screen and (min-width: 520px) {
+  .rewads {
+    gap: 10%;
+    margin-top: 10%;
+  }
 }

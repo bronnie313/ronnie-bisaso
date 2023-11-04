@@ -1,0 +1,19 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 4rem 1rem;
+}
+
+section#shadow-host-companion {
+  display: none;
+}
+
+@media only screen and (min-width: 520px) {
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 5%;
+    margin: 8rem 6rem;
+  }
+}

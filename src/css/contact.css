@@ -1,0 +1,31 @@
+.contact-message {
+  text-align: center;
+  width: 90%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 1rem;
+  margin: 0;
+}
+
+input {
+  border: 1px solid lightgray;
+  padding: 4px;
+  border-radius: 6px;
+  background: inherit;
+  font-feature-settings: inherit;
+  font-family: monospace;
+  width: 100%;
+}
+
+@media only screen and (min-width: 520px) {
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 5%;
+    margin: 2rem 6rem;
+  }
+}

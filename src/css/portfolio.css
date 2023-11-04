@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   background-color: white;
+  padding: 10px 0;
 }
 
 .slide-content {
@@ -64,4 +65,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 2.5rem;
+}
+
+.portfolio {
+  margin: 0;
+}
+
+@media only screen and (min-width: 520px) {
+  .portfolio {
+    margin: 0 6rem 6rem;
+  }
+
+  .slide-big-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
 }

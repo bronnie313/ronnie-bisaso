@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
+import '../css/contact.css';
 
 const Contact = () => (
   <div id="my-contacts" className="contact-section">
@@ -9,7 +10,7 @@ const Contact = () => (
         Let&apos;s Discuss Your
         <span className="text-success">Project</span>
       </h3>
-      <p>
+      <p className="contact-message">
         <em>
           Let&apos;s make something new, different and meaningful or make things visual
           and conceptual
@@ -29,31 +30,27 @@ const Contact = () => (
         <div className="call">
           <Icon className="icon2" icon="mi:email" />
           <div>
-            <a href="bronnie313@gmail.com">
-              <p>Email me</p>
-            </a>
+            <p>Email me</p>
             <p>bronnie313@gmail.com</p>
           </div>
         </div>
         <div className="call">
-          <a href="https://maps.app.goo.gl/K1AQcuT8z6rzYc1S9">
-            <Icon className="icon2" icon="mdi:address-marker-outline" />
-          </a>
+          <Icon className="icon2" icon="mdi:address-marker-outline" />
           <div>
             <p>Address</p>
             <p>Kitintale, Kampala UG</p>
           </div>
         </div>
       </div>
-      <form className="d-flex flex-column justify-content-between">
+      <form className="d-flex flex-column justify-content-between" id="contact-form" action="https://formspree.io/f/xgebvgaq" method="post">
         <div className="inputs">
           <input type="text" name="username" placeholder="Full name" required />
           <input type="email" name="UserEmail" required placeholder="Email" />
           <input type="number" name="UserNumber" required placeholder="Phone number" />
           <input type="text" name="userBudget" required placeholder="Budget" />
         </div>
-        <textarea name="message" placeholder="Message" />
-        <button type="button" className="btn btn-sm btn-success submit-btn">submit Message</button>
+        <textarea name="message" placeholder="Write me a message" />
+        <button type="submit" className="btn btn-sm btn-success submit-btn">submit Message</button>
       </form>
     </div>
   </div>
