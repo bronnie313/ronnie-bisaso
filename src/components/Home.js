@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
+import '../css/home.css';
 
 const Home = () => (
   <section id="about-me">
@@ -28,7 +29,7 @@ const Home = () => (
         Follow me on:
         <hr className="vertical-line" />
       </div>
-      <ul>
+      <ul className="social-media">
         <li>
           <a href="https://twitter.com/bisaso_r">
             <Icon className="icon" icon="pajamas:twitter" color="white" />

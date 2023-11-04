@@ -10,8 +10,7 @@
 * {
   padding: 0;
   margin: 0;
-
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -41,33 +40,8 @@ ul {
   margin: 0;
 }
 
-.vertical-text {
-  transform: rotate(90deg);
-  width: 9rem;
-  display: flex;
-  justify-content: space-between;
-}
-
 .vertical-line {
   width: 2rem;
-}
-
-section {
-  display: grid;
-  grid-template-columns: 50% 37% 10%;
-  gap: 1rem;
-  margin: 3rem 6rem;
-  align-items: center;
-}
-
-.social-connection {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  width: 2rem;
-  height: 15rem;
-  place-self: end;
-  justify-content: space-between;
 }
 
 .home-background-pic {
