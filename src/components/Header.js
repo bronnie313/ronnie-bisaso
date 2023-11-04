@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Icon } from '@iconify/react';
-import '../css/header.css';
 
 const Header = () => {
   const [breakpoint, setBreakpoint] = useState(window.innerWidth);
@@ -27,7 +26,41 @@ const Header = () => {
             N
           </h1>
         </div>
-        <Icon icon="mingcute:menu-fill" fontSize="3rem" />
+        <div className="dropdown">
+          <button className="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+            <Icon icon="mingcute:menu-fill" fontSize="3rem" />
+          </button>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li>
+              <button className="dropdown-item" type="button">
+                <a className="nav-title" href="#my-skills">
+                  Skills
+                </a>
+              </button>
+            </li>
+            <li>
+              <button className="dropdown-item" type="button">
+                <a className="nav-title" href="#my-reviews">
+                  Reviews
+                </a>
+              </button>
+            </li>
+            <li>
+              <button className="dropdown-item" type="button">
+                <a className="nav-title" href="#my-projects">
+                  projects
+                </a>
+              </button>
+            </li>
+            <li>
+              <button className="dropdown-item" type="button">
+                <a className="nav-title" href="#my-contacts">
+                  contact
+                </a>
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }

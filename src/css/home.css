@@ -22,7 +22,7 @@ section {
 
 .vertical-text {
   width: 10rem;
-  display: flex;
+  display: none;
   justify-content: space-around;
   align-items: center;
 }

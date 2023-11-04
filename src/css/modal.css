@@ -13,7 +13,7 @@
 
 .modal {
   display: flex;
-  padding: 40px;
+  padding: 20px;
   flex-direction: column;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -36,17 +36,16 @@
 }
 
 .modal-sections {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .modal-img-pic {
   width: 100%;
   height: 100%;
-  border: 19px solid #6c757d;
-  border-radius: 25px;
+  border: 4px solid #b5b5b5;
+  border-radius: 10px;
 }
 
 .modal-name {
@@ -75,4 +74,48 @@
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 520px) {
+  .modal {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    position: relative;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 85%;
+    height: 85%;
+    z-index: 1000;
+  }
+
+  .modal-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .modal-img-pic {
+    width: 100%;
+    height: 100%;
+    border: 19px solid #6c757d;
+    border-radius: 25px;
+  }
+
+  .btn-container {
+    width: 23%;
+  }
 }

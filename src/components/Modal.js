@@ -35,15 +35,15 @@ const Modal = () => {
             </div>
           </div>
         </div>
-        <div className="btn-container">
-          <button type="button" className="btn btn-light m-2 btn-sm see-btns">
+        <div className="btn-container mt-2">
+          <button type="button" className="btn btn-light btn-sm see-btns">
             <a href={link}>
               See live
               {' '}
               <Icon icon="solar:round-arrow-left-up-broken" rotate={1} />
             </a>
           </button>
-          <button type="button" className="btn btn-light m-2 btn-sm see-btns">
+          <button type="button" className="btn btn-light btn-sm see-btns">
             <a href={github}>
               See source
               {' '}

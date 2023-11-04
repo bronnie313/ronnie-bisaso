@@ -1,0 +1,25 @@
+.recommendation {
+  margin: 4rem 1rem;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+@media only screen and (min-width: 520px) {
+  .recommendation {
+    margin: 0 6rem 6rem;
+  }
+
+  .reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+  }
+}

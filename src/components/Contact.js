@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
+import '../css/contact.css';
 
 const Contact = () => (
   <div id="my-contacts" className="contact-section">
@@ -9,7 +10,7 @@ const Contact = () => (
         Let&apos;s Discuss Your
         <span className="text-success">Project</span>
       </h3>
-      <p>
+      <p className="contact-message">
         <em>
           Let&apos;s make something new, different and meaningful or make things visual
           and conceptual

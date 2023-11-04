@@ -10,7 +10,8 @@
 * {
   padding: 0;
   margin: 0;
-  outline: 1px solid red;
+
+  /* outline: 1px solid red; */
   box-sizing: border-box;
 }
 
@@ -84,13 +85,6 @@ h2 {
   color: #0db760;
 }
 
-.skills {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 5%;
-  margin: 8rem 6rem;
-}
-
 .skill-set {
   display: flex;
   flex-flow: wrap;
@@ -142,23 +136,6 @@ body {
   border-radius: 8px;
 }
 
-.contact-info {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 5%;
-  margin: 2rem 6rem;
-}
-
-.recommendation {
-  margin: 0 6rem 6rem;
-}
-
-.reviews {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4%;
-}
-
 .reivew-imgs {
   width: 100%;
   height: 100%;
@@ -191,19 +168,6 @@ textarea {
   width: fit-content;
   display: flex;
   place-self: flex-end;
-}
-
-input {
-  border: 1px solid lightgray;
-  padding: 4px;
-  border-radius: 6px;
-  background: inherit;
-  font-feature-settings: inherit;
-  font-family: monospace;
-}
-
-footer {
-  padding: 2rem 6rem 2rem;
 }
 
 .nav-title {
@@ -250,10 +214,6 @@ a:hover {
   color: #0db760;
 }
 
-.portfolio {
-  margin: 0 6rem 6rem;
-}
-
 .cv {
   color: #333;
   text-decoration: none;
@@ -261,4 +221,11 @@ a:hover {
 
 .cv:hover {
   color: white;
+}
+
+@media only screen and (min-width: 520px) {
+  .rewads {
+    gap: 10%;
+    margin-top: 10%;
+  }
 }

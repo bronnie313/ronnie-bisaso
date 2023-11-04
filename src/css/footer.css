@@ -1,0 +1,28 @@
+.rights {
+  font-family: monospace;
+  font-weight: 600;
+  color: #333;
+  font-size: smaller;
+}
+
+.footer-design {
+  display: none;
+}
+
+.footer-icons {
+  gap: 5px;
+}
+
+@media only screen and (min-width: 520px) {
+  .footer-design {
+    display: block;
+    font-family: monospace;
+    font-weight: 600;
+    color: #333;
+    font-size: smaller;
+  }
+
+  footer {
+    padding: 2rem 6rem 2rem;
+  }
+}

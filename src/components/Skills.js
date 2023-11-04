@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
+import '../css/skills.css';
 
 const Skills = () => (
   <div id="my-skills" className="skills">

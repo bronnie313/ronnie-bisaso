@@ -1,16 +1,17 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
+import '../css/footer.css';
 
 const Footer = () => (
   <footer>
     <hr className="zline" />
-    <div className="d-flex align-items-center justify-content-between">
-      <p>
+    <div className="d-flex align-items-center justify-content-between mb-2">
+      <p className="rights">
         <Icon icon="mdi:at" />
         2023. All Rights Reserved
       </p>
-      <p>Design Implemented By RONNIE BISASO</p>
-      <ul className="d-flex align-items-center">
+      <p className="footer-design">Design Implemented By Ronnie Bisaso</p>
+      <ul className="d-flex align-items-center footer-icons">
         <li>
           <a href="https://twitter.com/bisaso_r">
             <Icon className="icon" icon="pajamas:twitter" color="white" />
