@@ -8,7 +8,7 @@ const Contact = () => (
       <p className="headline">Contact</p>
       <h3>
         Let&apos;s Discuss Your
-        <span className="text-success">Project</span>
+        <span className="text-success"> Project</span>
       </h3>
       <p className="contact-message">
         <em>

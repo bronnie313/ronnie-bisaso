@@ -8,7 +8,7 @@ const Skills = () => (
       <p className="headline mb-2">My Skills</p>
       <h3>
         Why Hire Me For Your Next
-        <span className="text-success">Project</span>
+        <span className="text-success"> Project</span>
       </h3>
       <p>
         <em>

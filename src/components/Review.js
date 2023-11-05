@@ -8,7 +8,7 @@ const Review = () => (
       <p className="headline">Recommendations</p>
       <h3 className="testimonials">
         Read Testimonials from Those I&apos;ve
-        <span className="text-success">Worked With</span>
+        <span className="text-success"> Worked With</span>
       </h3>
     </div>
     <div className="reviews">

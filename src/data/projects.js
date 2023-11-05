@@ -12,8 +12,8 @@ const projects = [
     title: 'LeaderBoard',
     description: 'This Project involves creating a leaderboard which is a list of scores or grades or rankings for a particular game or competition. The application typically allows users to submit their scores or rankings, which are then added to the leaderboard in real-time',
     image: './images/leaderboard.jpg',
-    link: 'https://github.com/bronnie313/leaderboard',
-    github: 'https://bronnie313.github.io/leaderboard/dist/',
+    link: 'https://bronnie313.github.io/leaderboard/dist/',
+    github: 'https://github.com/bronnie313/leaderboard',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const projects = [
     description: 'Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and also Read a random math-related quote',
     image: './images/cal.jpg',
     link: 'https://math-magician-4m5t.onrender.com/',
-    github: '',
+    github: 'https://github.com/bronnie313/Math-magician',
   },
 ];
 
