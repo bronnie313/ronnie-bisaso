@@ -64,6 +64,11 @@ After you're finished please remove all the comments and instructions!
 
 **Portfolio Site** is a project that displays "A software Engineers profile" and tests the understanding on parsing figma design to create a UI, It is also your ultimate tool for showcasing your skills and achievements! It's platform that allows you to create and manage your professional portfolio online.
 
+**The following is the screenshot**
+
+![portfolio screenshot](https://github.com/bronnie313/ronnie-bisaso/assets/37089236/64e0c8f7-84d2-4759-bba0-8c22b7216fe6)
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
