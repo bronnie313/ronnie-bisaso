@@ -54,9 +54,8 @@ ul {
 
 .home-background-pic2 {
   position: absolute;
-  top: 119%;
-  width: 97%;
-  height: 212%;
+  top: 75%;
+  width: 100%;
   z-index: -9999;
 }
 
