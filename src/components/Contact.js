@@ -4,11 +4,11 @@ import '../css/contact.css';
 
 const Contact = () => (
   <div id="my-contacts" className="contact-section">
-    <div className="d-flex flex-column justify-content-center align-items-center mt-4">
-      <p className="headline">Contact</p>
+    <div className="d-flex flex-column justify-content-center align-items-center mt-4 header">
+      <p className="contact-headline">Contact</p>
       <h3>
         Let&apos;s Discuss Your
-        <span className="text-success"> Project</span>
+        <span className="text-light"> Project</span>
       </h3>
       <p className="contact-message">
         <em>
@@ -50,7 +50,7 @@ const Contact = () => (
           <input type="text" name="userBudget" required placeholder="Budget" />
         </div>
         <textarea name="message" placeholder="Write me a message" />
-        <button type="submit" className="btn btn-sm btn-success submit-btn">submit Message</button>
+        <button type="submit" className="btn btn-sm btn-light submit-btn">submit Message</button>
       </form>
     </div>
   </div>

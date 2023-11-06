@@ -36,8 +36,10 @@ function App() {
       <Skills />
       <Portfolio projects={projects} />
       <Review />
-      <Contact />
-      <Footer />
+      <div className="bottom">
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
