@@ -15,9 +15,11 @@ const Home = () => (
         .
       </h1>
       <p>
-        I&apos;m a software developer! I can help you build a product, feature or website.
-        If you like what you see and have a project you need coded,
-        don&apos;t hesitate to contact me.
+        <em>
+          I&apos;m a software developer! I can help you build a product, feature or website.
+          If you like what you see and have a project you need coded,
+          don&apos;t hesitate to contact me.
+        </em>
       </p>
       <button type="button" className="btn btn-success btn-sm mt-2"><a href="#my-contacts">contact me</a></button>
     </div>
