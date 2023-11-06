@@ -72,6 +72,7 @@ ul {
 .icon:hover {
   color: #0db760;
   background-color: white;
+  box-shadow: 1px 0 8px 2px #0db760;
 }
 
 .vl {
@@ -156,11 +157,13 @@ body {
 textarea {
   height: 6rem;
   margin: 0.7em 0;
-  border: 1px solid lightgray;
+  border: 3px solid white;
   border-radius: 6px;
   background: inherit;
   font-feature-settings: inherit;
   font-family: monospace;
+  outline: none;
+  color: white;
   padding: 5px;
 }
 

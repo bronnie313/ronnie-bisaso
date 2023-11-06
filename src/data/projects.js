@@ -39,6 +39,14 @@ const projects = [
     link: 'https://math-magician-4m5t.onrender.com/',
     github: 'https://github.com/bronnie313/Math-magician',
   },
+  {
+    id: 5,
+    title: 'Space Traveller',
+    description: 'pace Traveler offers the users a8 chance to book a Rocket through The Rockets section where a list of rockets available is displayed. Users can book each rocket by clicking the reservation button or cancel the previously made booking',
+    image: './images/space.PNG',
+    link: 'https://space-traveler-hmq1.onrender.com/',
+    github: 'https://github.com/bronnie313/space-traveler',
+  },
 ];
 
 export default projects;
