@@ -130,7 +130,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:https://github.com/bronnie313/ronnie-bisaso.git
+Clone this repository to your desired folder:https: ` //github.com/bronnie313/ronnie-bisaso.git `
 
 <!--
 Example commands:
@@ -143,7 +143,7 @@ Example commands:
 
 ### Install
 
-Install this project with:https://github.com/bronnie313/ronnie-bisaso.git
+Install this project with:https: ` cd ronnie-bisaso ` ` npm install `
 
 <!--
 Example command:
