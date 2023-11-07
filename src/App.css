@@ -6,6 +6,7 @@
 .App {
   height: 100vh;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -50,6 +51,33 @@ ul {
   position: absolute;
   width: 30%;
   z-index: -9999;
+  opacity: 0.1;
+  animation: fadeInOut 10s ease-in-out infinite, drift 8s linear infinite;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 2;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(20px, 10px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 .home-background-pic2 {
