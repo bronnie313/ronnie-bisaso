@@ -78,7 +78,7 @@ const Header = () => {
       </div>
       <ul className="d-flex align-items-center header-ul">
         <li>
-          <a className="nav-title" href="about-me">
+          <a className="nav-title" href="#about-me">
             <Icon icon="octicon:home-24" className="nav-icon" />
           </a>
         </li>
