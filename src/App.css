@@ -213,23 +213,6 @@ a:hover {
   color: #0db760;
 }
 
-.nav-title::after {
-  content: '';
-  height: 2px;
-  width: 100%;
-  background-color: #0db760;
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  opacity: 0;
-}
-
-.nav-title:hover::after {
-  color: #0db760;
-  opacity: 1;
-  cursor: pointer;
-}
-
 .headline {
   width: fit-content;
   padding: 8px;

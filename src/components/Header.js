@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Icon } from '@iconify/react';
+import '../css/header.css';
 
 const Header = () => {
   const [breakpoint, setBreakpoint] = useState(window.innerWidth);
@@ -66,44 +67,45 @@ const Header = () => {
   }
 
   return (
-    <nav className="d-flex justify-content-around align-items-center mt-3">
+    <nav className="d-flex justify-content-between align-items-center main-header">
       <div className="d-flex justify-content-center flex-column align-items-center">
         <h1 className="logo">
           R
-          <Icon icon="ant-design:code-filled" color="#0db760" fontSize="5rem" />
+          <Icon icon="ant-design:code-filled" color="#0db760" fontSize="4rem" />
           N
         </h1>
         <p className="solutions"><em>Software Solutions</em></p>
       </div>
-      <ul className="d-flex align-items-center">
+      <ul className="d-flex align-items-center header-ul">
         <li>
           <a className="nav-title" href="about-me">
-            About
+            <Icon icon="octicon:home-24" className="nav-icon" />
           </a>
         </li>
         <li>
-          <a className="nav-title" href="#my-skills">
-            Skills
+          <a className="nav-title2" href="#my-skills">
+            <Icon icon="game-icons:skills" className="nav-icon" />
           </a>
         </li>
         <li>
-          <a className="nav-title" href="#my-reviews">
-            Reviews
-          </a>
-        </li>
-        <li className="nav-title">
-          <a className="nav-title" href="#my-projects">
-            Projects
+          <a className="nav-title3" href="#my-reviews">
+            <Icon icon="material-symbols:reviews-outline-rounded" className="nav-icon" />
           </a>
         </li>
         <li>
-          <a className="nav-title" href="#my-contacts">
-            contact
+          <a className="nav-title4" href="#my-projects">
+            <Icon icon="bytesize:portfolio" className="nav-icon" />
           </a>
+        </li>
+        <li>
+          <a className="nav-title5" href="#my-contacts">
+            <Icon icon="mingcute:contacts-line" className="nav-icon" />
+          </a>
+        </li>
+        <li>
+          <button type="button" className="btn btn-outline-success btn-sm" aria-label="Download CV"><a className="cv" href="https://docs.google.com/document/d/1BNoFCStYQbHl8Bwq073pdJt1owdG0XDF3TrVxV-KHgE/edit?usp=sharing">Download CV</a></button>
         </li>
       </ul>
-      <button type="button" className="btn btn-outline-success btn-sm" aria-label="Download CV"><a className="cv" href="https://docs.google.com/document/d/1BNoFCStYQbHl8Bwq073pdJt1owdG0XDF3TrVxV-KHgE/edit?usp=sharing">Download CV</a></button>
-      {/* <hr className="header-line" /> */}
     </nav>
   );
 };
