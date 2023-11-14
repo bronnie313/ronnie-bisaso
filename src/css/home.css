@@ -5,6 +5,7 @@ section {
   border-radius: 8px;
   padding: 12px;
   background: hsla(0, 0%, 100%, 1);
+  scroll-margin-top: 7rem;
 }
 
 .profile-pic {

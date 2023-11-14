@@ -71,6 +71,7 @@
 
 .portfolio {
   margin: 0;
+  scroll-margin-top: 7rem;
 }
 
 @media only screen and (min-width: 520px) {

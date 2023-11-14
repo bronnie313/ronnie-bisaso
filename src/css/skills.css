@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 20px;
   margin: 4rem 1rem;
+  scroll-margin-top: 7rem;
 }
 
 section#shadow-host-companion {
