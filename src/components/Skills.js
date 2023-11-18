@@ -14,7 +14,7 @@ const Skills = () => (
         <em>
           I&apos;m so passionate about Software development,
           I&apos;ve got both soft and good technical skills, good at problem-solving,
-          I enjoying working with new technologies and I love collaborating with other
+          I enjoy working with new technologies and I love collaborating with other
           passionate Software developers.
           {' '}
         </em>

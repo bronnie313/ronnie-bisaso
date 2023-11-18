@@ -23,7 +23,7 @@ const Header = () => {
         <div className="d-flex justify-content-center flex-column align-items-center">
           <h1 className="logo">
             R
-            <Icon icon="carbon:transform-binary" color="#0db760" fontSize="3rem" />
+            <Icon icon="carbon:transform-binary" color="#0db760" fontSize="3.5rem" className="rotate-icon" />
             N
           </h1>
         </div>
@@ -68,7 +68,7 @@ const Header = () => {
 
   return (
     <nav className="d-flex justify-content-between align-items-center main-header">
-      <div className="d-flex justify-content-center flex-column align-items-center">
+      <div className="d-flex justify-content-center flex-column align-items-center mt-2">
         <h1 className="logo">
           R
           <Icon icon="carbon:transform-binary" color="#0db760" fontSize="3.5rem" className="rotate-icon" />

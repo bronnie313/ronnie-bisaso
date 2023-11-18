@@ -37,14 +37,14 @@ const Modal = () => {
         </div>
         <div className="btn-container mt-2">
           <button type="button" className="btn btn-light btn-sm see-btns">
-            <a href={link}>
+            <a href={link} target="_blank" rel="noopener noreferrer">
               See live
               {' '}
               <Icon icon="solar:round-arrow-left-up-broken" rotate={1} />
             </a>
           </button>
           <button type="button" className="btn btn-light btn-sm see-btns">
-            <a href={github}>
+            <a href={github} target="_blank" rel="noopener noreferrer">
               See source
               {' '}
               <Icon icon="teenyicons:github-solid" />

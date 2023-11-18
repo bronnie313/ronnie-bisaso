@@ -7,8 +7,8 @@ const Portfolio = () => (
     <div className="d-flex flex-column justify-content-center m-4">
       <p className="headline">Portfolio</p>
       <h3>
-        My Creative Works Some Latest
-        <span className="text-success"> Project</span>
+        My Creative Works:
+        <span className="text-success"> Latest Project</span>
       </h3>
       <p>
         <em>

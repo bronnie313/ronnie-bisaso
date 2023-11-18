@@ -6,19 +6,19 @@ const Home = () => (
   <section id="about-me">
     <div className="profile ">
       <p className="headline mb-2">Welcome</p>
-      <h1 style={{ width: '70%', fontWeight: '600' }}>
-        <span className="text-success">Glad</span>
+      <h1 style={{ fontWeight: '600' }}>
+        <span className="text-success">Greetings!</span>
         {' '}
-        to see you!, I&apos;m
+        My name is
         {' '}
         <span className="text-success">Ronnie Bisaso</span>
-        .
+        ,
       </h1>
       <p>
         <em>
-          I&apos;m a software developer! I can help you build a product, feature or website.
-          If you like what you see and have a project you need coded,
-          don&apos;t hesitate to contact me.
+          and I specialize in software development.
+          If you have a product, feature or website you would like to bring to life,
+          please don&apos;t hesitate to get in touch.
         </em>
       </p>
       <button type="button" className="btn btn-success btn-sm mt-2"><a href="#my-contacts">contact me</a></button>
@@ -33,27 +33,27 @@ const Home = () => (
       </div>
       <ul className="social-media">
         <li>
-          <a href="https://twitter.com/bisaso_r">
+          <a href="https://twitter.com/bisaso_r" target="_blank" rel="noopener noreferrer">
             <Icon className="icon" icon="simple-icons:x" />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/ronnie-bisaso/">
+          <a href="https://www.linkedin.com/in/ronnie-bisaso/" target="_blank" rel="noopener noreferrer">
             <Icon className="icon" icon="formkit:linkedin" />
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@bronnie313">
+          <a href="https://medium.com/@bronnie313" target="_blank" rel="noopener noreferrer">
             <Icon className="icon" icon="mingcute:medium-fill" />
           </a>
         </li>
         <li>
-          <a href="https://github.com/bronnie313">
+          <a href="https://github.com/bronnie313" target="_blank" rel="noopener noreferrer">
             <Icon className="icon" icon="charm:github" />
           </a>
         </li>
         <li>
-          <a href="https://wellfound.com/u/bisaso-ronald">
+          <a href="https://wellfound.com/u/bisaso-ronald" target="_blank" rel="noopener noreferrer">
             <Icon className="icon" icon="simple-icons:wellfound" />
           </a>
         </li>
