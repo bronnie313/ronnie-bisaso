@@ -51,19 +51,8 @@ ul {
   position: absolute;
   width: 30%;
   z-index: -9999;
-  opacity: 0.1;
-  animation: fadeInOut 10s ease-in-out infinite, drift 8s linear infinite;
-}
-
-@keyframes fadeInOut {
-  0%,
-  100% {
-    opacity: 0.1;
-  }
-
-  50% {
-    opacity: 2;
-  }
+  opacity: 1;
+  animation: drift 8s linear infinite;
 }
 
 @keyframes drift {

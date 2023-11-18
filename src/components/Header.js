@@ -23,7 +23,7 @@ const Header = () => {
         <div className="d-flex justify-content-center flex-column align-items-center">
           <h1 className="logo">
             R
-            <Icon icon="ant-design:code-filled" color="#0db760" fontSize="3rem" />
+            <Icon icon="carbon:transform-binary" color="#0db760" fontSize="3rem" />
             N
           </h1>
         </div>
@@ -71,7 +71,7 @@ const Header = () => {
       <div className="d-flex justify-content-center flex-column align-items-center">
         <h1 className="logo">
           R
-          <Icon icon="ant-design:code-filled" color="#0db760" fontSize="4rem" />
+          <Icon icon="carbon:transform-binary" color="#0db760" fontSize="3.5rem" className="rotate-icon" />
           N
         </h1>
         <p className="solutions"><em>Software Solutions</em></p>
