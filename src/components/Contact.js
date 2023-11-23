@@ -24,7 +24,7 @@ const Contact = () => (
           <Icon className="icon2" icon="solar:phone-broken" />
           <div>
             <p>Call me</p>
-            <p>+256 706661852</p>
+            <p>+256 703433240</p>
           </div>
         </div>
         <div className="call">
