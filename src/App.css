@@ -1,0 +1,240 @@
+.design {
+  /* text-align: center; */
+  background-image: url(/public/images/Design.png);
+}
+
+.App {
+  height: 100vh;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  /* outline: 1px solid red; */
+  box-sizing: border-box;
+}
+
+.profile-img {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: #0db760;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vertical-line {
+  width: 2rem;
+}
+
+.home-background-pic {
+  position: absolute;
+  width: 30%;
+  z-index: -9999;
+  opacity: 1;
+  animation: drift 8s linear infinite;
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(20px, 10px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.home-background-pic2 {
+  position: absolute;
+  top: 103%;
+  width: 100%;
+  z-index: -9999;
+}
+
+.icon {
+  color: hsla(0, 0%, 100%, 1);
+  padding: 4px;
+  background: #0db760;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  border-radius: 15px;
+  border-style: double;
+}
+
+.icon:hover {
+  color: #0db760;
+  background-color: white;
+  box-shadow: 1px 0 8px 2px #0db760;
+}
+
+.vl {
+  border-left: 1.5px solid #0db760;
+  height: 3.8rem;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 700;
+  color: #0db760;
+}
+
+.skill-set {
+  display: flex;
+  flex-flow: wrap;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background: #f9fafbb8;
+}
+
+.one-skill {
+  border: 0.5px solid ghostwhite;
+  padding: 5px;
+  margin: 3px;
+  width: 116px;
+  background: #fff;
+  flex-grow: 1;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 0.5px solid ghostwhite;
+  padding: 5px;
+  margin: 3px;
+  width: 100%;
+  border-radius: 7px;
+  background: #fff;
+  flex-grow: 1;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+  margin: 2px;
+}
+
+.icon2 {
+  color: hsla(0, 0%, 100%, 1);
+  padding: 4px;
+  background: #0db760;
+  font-size: 2.5rem;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.reivew-imgs {
+  width: 100%;
+  height: 100%;
+}
+
+.review-container {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stars {
+  gap: 2px;
+}
+
+textarea {
+  height: 6rem;
+  margin: 0.7em 0;
+  border: 3px solid white;
+  border-radius: 6px;
+  background: inherit;
+  font-feature-settings: inherit;
+  font-family: monospace;
+  outline: none;
+  color: white;
+  padding: 5px;
+}
+
+.submit-btn {
+  width: fit-content;
+  display: flex;
+  place-self: flex-end;
+}
+
+.nav-title {
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #0db760;
+}
+
+.headline {
+  width: fit-content;
+  padding: 8px;
+  border: 1px solid #0db760;
+  border-radius: 30px;
+  color: #0db760;
+}
+
+.solutions {
+  position: relative;
+  top: -1rem;
+  font-family: cursive;
+  color: #0db760;
+}
+
+.cv {
+  color: #333;
+  text-decoration: none;
+}
+
+.cv:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 520px) {
+  .rewads {
+    gap: 10%;
+    margin-top: 10%;
+  }
+
+  .App {
+    margin-top: 10rem;
+  }
+}
