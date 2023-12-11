@@ -67,6 +67,10 @@ const Skills = () => (
         <Icon fontSize="2rem" icon="bxl:postgresql" color="#0db760" />
         <p><strong>Postgresql</strong></p>
       </div>
+      <div className="one-skill">
+        <Icon fontSize="2rem" icon="arcticons:linux-deploy" color="#0db760" />
+        <p><strong>Postgresql</strong></p>
+      </div>
     </div>
   </div>
 );
