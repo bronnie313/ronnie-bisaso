@@ -31,6 +31,7 @@ const Modal = () => {
                 <li><Icon icon="logos:redux" /></li>
                 <li><Icon icon="devicon:ruby-wordmark" /></li>
                 <li><Icon icon="logos:rails" /></li>
+                <li><Icon icon="arcticons:linux-deploy" /></li>
               </ul>
             </div>
           </div>
