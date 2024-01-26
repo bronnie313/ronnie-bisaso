@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="d-flex align-items-center justify-content-between mb-2">
       <p className="rights">
         <Icon icon="mdi:at" />
-        2023. All Rights Reserved
+        2024. All Rights Reserved
       </p>
       <p className="footer-design">Design Implemented By Ronnie Bisaso</p>
       <ul className="d-flex align-items-center footer-icons">
