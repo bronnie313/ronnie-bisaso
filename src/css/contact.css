@@ -1,0 +1,71 @@
+.contact-section {
+  scroll-margin-top: 7rem;
+}
+
+.contact-message {
+  text-align: center;
+  width: 90%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 1rem;
+  margin: 0;
+}
+
+input {
+  border: 3px solid white;
+  padding: 4px;
+  border-radius: 6px;
+  background: inherit;
+  font-feature-settings: inherit;
+  font-family: monospace;
+  width: 100%;
+  color: white;
+  outline: none;
+}
+
+.header {
+  color: white;
+}
+
+.bottom {
+  padding: 8px;
+  margin: 0;
+  background-color: #0db760;
+  border-top-right-radius: 80px;
+}
+
+.contact-headline {
+  width: fit-content;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+textarea::placeholder {
+  color: lightgray;
+}
+
+.submit-btn {
+  box-shadow: 1px 0 8px 2px #fff;
+  background: #0db760;
+  color: white;
+  border: 2px solid;
+}
+
+@media only screen and (min-width: 520px) {
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 5%;
+    margin: 2rem 6rem;
+  }
+}

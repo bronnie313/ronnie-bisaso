@@ -1,0 +1,49 @@
+.rights {
+  font-family: monospace;
+  font-weight: 600;
+  color: #f8f9fa;
+  font-size: smaller;
+}
+
+.footer-design {
+  display: none;
+}
+
+.footer-icons {
+  gap: 5px;
+}
+
+.zline {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.icon3 {
+  color: #0db760;
+  padding: 4px;
+  background: #fff;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  border-radius: 15px;
+  border-style: double;
+}
+
+.icon3:hover {
+  color: white;
+  background-color: #0db760;
+  box-shadow: 1px 0 8px 2px #fff;
+}
+
+@media only screen and (min-width: 520px) {
+  .footer-design {
+    display: block;
+    font-family: monospace;
+    font-weight: 600;
+    color: #f8f9fa;
+    font-size: smaller;
+  }
+
+  footer {
+    padding: 2rem 6rem 2rem;
+  }
+}
